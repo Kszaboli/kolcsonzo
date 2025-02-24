@@ -1,0 +1,6 @@
+@autokolcsonzo_HostAddress = http://localhost:5184
+
+GET {{autokolcsonzo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
