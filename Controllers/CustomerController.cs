@@ -22,7 +22,7 @@ namespace autokolcsonzo.Controllers
                 };
                 if (createCustomerDto.Email != null)
                 {
-                    if (!createCustomerDto.Email.Contains('@'))
+                    if (createCustomerDto.Email.Contains('@'))
                     {
                         context.Add(customer);
                         context.SaveChanges();
@@ -43,7 +43,7 @@ namespace autokolcsonzo.Controllers
             }
         }
 
-        [HttpGet]
+        [HttpGet("Id")]
         public ActionResult<Customer> GetById(string id)
         {
             using (var  ctx = new KolcsonzoContext())

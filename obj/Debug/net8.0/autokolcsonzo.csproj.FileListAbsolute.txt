@@ -128,3 +128,4 @@ C:\Users\Tanulo\GitWorkDir\autokolcsonzo\obj\Debug\net8.0\refint\autokolcsonzo.d
 C:\Users\Tanulo\GitWorkDir\autokolcsonzo\obj\Debug\net8.0\autokolcsonzo.pdb
 C:\Users\Tanulo\GitWorkDir\autokolcsonzo\obj\Debug\net8.0\autokolcsonzo.genruntimeconfig.cache
 C:\Users\Tanulo\GitWorkDir\autokolcsonzo\obj\Debug\net8.0\ref\autokolcsonzo.dll
+C:\Users\Tanulo\GitWorkDir\autokolcsonzo\obj\Debug\net8.0\autokolcsonzo.sourcelink.json

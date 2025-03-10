@@ -47,32 +47,6 @@
   },
   {
     "ContainingType": "autokolcsonzo.Controllers.CarController",
-    "Method": "GetById",
-    "RelativePath": "api/Cars",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "autokolcsonzo.Models.Car",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "autokolcsonzo.Controllers.CarController",
     "Method": "Put",
     "RelativePath": "api/Cars",
     "HttpMethod": "PUT",
@@ -129,6 +103,32 @@
     ]
   },
   {
+    "ContainingType": "autokolcsonzo.Controllers.CarController",
+    "Method": "GetById",
+    "RelativePath": "api/Cars/Id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "autokolcsonzo.Models.Car",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "autokolcsonzo.Controllers.CustomerController",
     "Method": "Post",
     "RelativePath": "api/Customers",
@@ -162,32 +162,6 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "autokolcsonzo.Models.Customer",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "autokolcsonzo.Controllers.CustomerController",
-    "Method": "GetById",
-    "RelativePath": "api/Customers",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
     "ReturnTypes": [
       {
         "Type": "autokolcsonzo.Models.Customer",
@@ -258,6 +232,32 @@
     ]
   },
   {
+    "ContainingType": "autokolcsonzo.Controllers.CustomerController",
+    "Method": "GetById",
+    "RelativePath": "api/Customers/Id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "autokolcsonzo.Models.Customer",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "autokolcsonzo.Controllers.RentController",
     "Method": "Post",
     "RelativePath": "api/Rents",
@@ -291,32 +291,6 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "autokolcsonzo.Models.Rent",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "autokolcsonzo.Controllers.RentController",
-    "Method": "GetById",
-    "RelativePath": "api/Rents",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
     "ReturnTypes": [
       {
         "Type": "autokolcsonzo.Models.Rent",
@@ -365,6 +339,32 @@
     "Method": "Delete",
     "RelativePath": "api/Rents",
     "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "autokolcsonzo.Models.Rent",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "autokolcsonzo.Controllers.RentController",
+    "Method": "GetById",
+    "RelativePath": "api/Rents/Id",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [

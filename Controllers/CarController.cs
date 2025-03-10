@@ -40,7 +40,7 @@ namespace autokolcsonzo.Controllers
             }
         }
 
-        [HttpGet]
+        [HttpGet("Id")]
         public ActionResult<Car> GetById(string id)
         {
             using (var ctx = new KolcsonzoContext())

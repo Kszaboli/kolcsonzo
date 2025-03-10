@@ -14,4 +14,8 @@ public partial class Rent
     public DateTime Start { get; set; }
 
     public DateTime End { get; set; }
+
+    public virtual Car Car { get; set; } = null!;
+
+    public virtual Customer Customer { get; set; } = null!;
 }

@@ -41,7 +41,7 @@ namespace autokolcsonzo.Controllers
             }
         }
 
-        [HttpGet]
+        [HttpGet("Id")]
         public ActionResult<Rent> GetById(string id)
         {
             using (var ctx = new KolcsonzoContext())

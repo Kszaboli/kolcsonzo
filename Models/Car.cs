@@ -12,4 +12,6 @@ public partial class Car
     public string Model { get; set; } = null!;
 
     public DateTime Evjarat { get; set; }
+
+    public virtual ICollection<Rent> Rents { get; set; } = new List<Rent>();
 }
